@@ -20,7 +20,7 @@ public class postmanEchoApiTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("HELLO WORLD"));
+                .body("data", equalTo("BYE"));
 
     }
 }
